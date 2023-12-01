@@ -1,0 +1,69 @@
+/* App.css */
+
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Light grey */
+  color: #333; /* Text color */
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Styling for the cards */
+.card {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #ff932e; /* Light grey */
+  transition: background-color 0.3s ease;
+  text-align: center; /* Center the text */
+  display: inline-block; /* Fill the width from left to right */
+  /* width: 300px; */ /* Remove width limitation */
+}
+
+
+.card a {
+  text-decoration: none;
+  color: #3dff87; /* Text color */
+  display: block; /* Full card clickability */
+  height: 100%; /* Fill the entire card with the link */
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  background-color: #7ebffb; /* Light blue */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff; /* Text color */
+}
+
+/* Darker background color on click */
+.navbar ul li a:active {
+  background-color: #3b5998; /* Dark blue */
+}
