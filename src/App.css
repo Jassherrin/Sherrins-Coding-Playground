@@ -33,11 +33,9 @@ h1 {
 }
 
 
-.card a {
-  text-decoration: none;
-  color: #3dff87; /* Text color */
-  display: block; /* Full card clickability */
-  height: 100%; /* Fill the entire card with the link */
+/* Change card color on hover */
+.card:hover {
+  background-color: #eaff4d; /* Darker color on hover */
 }
 
 /* Styling for the navigation bar */
@@ -63,7 +61,6 @@ h1 {
   color: #fff; /* Text color */
 }
 
-/* Darker background color on click */
-.navbar ul li a:active {
-  background-color: #3b5998; /* Dark blue */
+.navbar ul li a:hover {
+  background-color: #004166; /* Darker color on hover */
 }

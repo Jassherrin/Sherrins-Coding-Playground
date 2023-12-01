@@ -9,6 +9,7 @@ export default function App() {
         <ul>
           <li><a href="#daily-grinds">Daily Grinds</a></li>
           <li><a href="#machine-learning">Machine Learning</a></li>
+          <li><a href="#interview">Possible interview questions</a></li>
         </ul>
       </nav>
 
@@ -21,13 +22,22 @@ export default function App() {
           <div>Leetcode Easy Java YouTube solutions</div>
         </a>
       </section>
-
       <section id="machine-learning">
         <h2>Machine Learning</h2>
         <a href="https://developers.google.com/learn/topics/on-device-ml" target="_blank" className="card">
           <div>Google for Developers On-Device Machine Learning</div>
         </a>
       </section>
+
+      
+      <section id="interview">
+        <h2>Machine Learning</h2>
+        <a href="https://content.mycareersfuture.gov.sg/useful-guide-software-engineer-interviews-tips-questions-what-expect/" target="_blank" className="card">
+          <div>MyCareersFuture: Useful Guide to Software Engineer Interviews: Tips, Questions and What to Expect</div>
+        </a>
+      </section>
+
+      
     </main>
   );
 }
