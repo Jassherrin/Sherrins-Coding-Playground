@@ -4,13 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+ 
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.jsx"></script>
-    
+     <div id="root"></div>
+      <script type="module" src="/src/index.jsx"></script>
 
+    <script>
+      function toggleDropdown() {
+        var dropdownContent = document.querySelector('.dropdown-content');
+
+        // Get the computed style
+        var computedStyle = window.getComputedStyle(dropdownContent);
+
+        // Check if the computed display style is 'none'
+        if (computedStyle.getPropertyValue('display') === 'none') {
+          dropdownContent.style.display = 'block';
+        } else {
+          dropdownContent.style.display = 'none';
+        }
+      }
+    </script>
     
   </body>
 </html>
+
