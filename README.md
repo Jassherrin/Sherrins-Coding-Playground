@@ -1,17 +1,15 @@
-## Running React on Repl.it
+# Sherrin's Coding Playground
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Welcome to Sherrin's Coding Playground! This repository is a collection of coding resources and links to aid anyone in their coding journey.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Website Link
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+https://sherrins-coding-playground.jassherrin.repl.co/
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## About
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+This website contains a curated list of references, tutorials, and resources related to various programming languages, algorithms, data structures, and more. It's designed to provide a helpful starting point for anyone interested in learning or improving their coding skills.
 
-### Typescript
+## Contributing
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Contributions are welcome! If you have additional resources or links you'd like to add, feel free to email me at jassherrin@gmail.com
